@@ -6,7 +6,7 @@
     </a>
 </p>
 
-`Project Goal`:Identify faces in video stream with Deep Dearning.
+`Project Goal`:Identify faces in video stream using Deep Dearning and OpenCV.
 
 
 # 💻 [Face Recognition Library](https://pypi.org/project/face-recognition/).
