@@ -2,34 +2,36 @@
 # 👋 Introduction
 <p align="center">
     <a href="https://pypi.org/project/face-recognition/" target="blank"/>
-        <img src="./images/Facial-recognition.jpg" alt="Plot" />
+        <img src="./images/Facial-recognition.jpg" alt="Facial Recognition Image" />
     </a>
 </p>
 
-`Project Goal`: Predicting student academic grades with python.
-
-# 💻 Published on medium
-Please read all the insights from my medium page.
-> [Predicting student academic grades with python](https://medium.com/analytics-vidhya/what-i-discovered-after-analyzing-10-000-medium-posts-with-python-bb012c6e004b)  
-> [Predicting student academic grades with python](https://lucidsquad.medium.com/predicting-student-academic-grades-with-python-dac5499602e1)
+`Project Goal`:Identify faces in video stream with Deep Dearning.
 
 
-# 🔥 What you will learn
-- Introducing the algorithm, dataset and various libraries used for the project.
-- Understanding the data through Exploratory Data Analysis.
-- Data preprocessing and feature engineering.
-- Machine learning section; predictive modelling.
-- Saving and loading model as file.
+# 💻 [Face Recognition Library](https://pypi.org/project/face-recognition/).
+Recognize and manipulate faces from Python or from the command line with
+the world’s simplest face recognition library.
+
+Built using dlib’s **state-of-the-art** face recognition
+built with deep learning. The model has an accuracy of 99.38% on the Labeled Faces in the Wild benchmark.
 
 
-## 🔢 Data Exploration summary
-- Checks how sex and age affects the student's grade.
-- Can student relationship status affects his/her grade.
-- Is there any impact parents educational level have on students performance.
-,etc
+# 🔥 Facial Recognition Summary steps.
+
+> `Encoder.py' file.
+- Grab labels and images.
+- Extracts faces from the whole image.
+- Create image embedding.
+>`Recognizer.py`
+- Extract faces from video frames.
+- Create face embedding.
+- Compare the face embeddings with the embeddings created earlier using the `encoder.py` file.
+- Selects and outputs the label of the best match.
+
 
 # 🏗️ How to reproduce the project
-You can run this code locally with a few easy steps.
+You can run this code locally with these few easy steps.
 
 1. Clone the repository
 
