@@ -36,19 +36,28 @@ You can run this code locally with these few easy steps.
 1. Clone the repository
 
 ```bash
-https://github.com/kuleafenu/predicting-students-future-grades.git
+https://github.com/kuleafenu/Facial_recognition_application.git
 ```
 
 2. Install dependencies
 
 ```bash
-pip install pandas
+pip install opencv-python
 pip install numpy
-pip install seaborn
-pip install nltk
-pip install -U scikit-learn
+```
+[Download and install Facial-Recognition library](https://pypi.org/project/face-recognition/)
 
-3. Open the `.ipynb` and run the cells.
+**Nb:** You can simply use pip to install other python libraries whenever necessary.
+
+3. Changing Images
+- In the `known_images_folder` replace the images and rename the names with your own.
+
+4. Running application.
+- Launch command line.
+- Navigate to the directory where `encoder.py` and `recognizer.py` files are.
+- Type `python encoder.py` and press enter. Wait till you see `Learning Completed` on the console.
+- Type `python recognizer.py` and press enter. This runs the application.
+
 
 # 🛡️ License
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
