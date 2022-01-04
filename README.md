@@ -2,7 +2,7 @@
 # 👋 Introduction
 <p align="center">
     <a href="https://pypi.org/project/face-recognition/" target="blank"/>
-        <img src="./images/Facial-recognition.jpg" alt="Facial Recognition Image" />
+        <img src="./images/demo.jpg" alt="Facial Recognition Image" />
     </a>
 </p>
 
